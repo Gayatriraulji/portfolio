@@ -142,10 +142,7 @@ export default function App() {
         <span>Email successfully copied!</span>
       </div>
 
-      {/* Header Panel */}
       <header className="header">
-        <a href="#home" className="logo">
-        </a>
 
         {/* Desktop Links */}
         <nav className="nav-links">
