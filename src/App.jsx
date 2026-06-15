@@ -540,39 +540,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* GITHUB METRICS */}
-        <section className="section" style={{ paddingTop: '0px' }}>
-          <div className="section-header">
-            <span className="section-tag">Insights</span>
-            <h2 className="section-title">GitHub Engagement</h2>
-          </div>
-
-          <div className="github-stats-container">
-            <div className="github-stats-card glass-card">
-              <div className="github-grid">
-                <div className="github-img-wrapper">
-                  <img 
-                    src={`https://github-readme-stats.vercel.app/api?username=${githubUser}&show_icons=true&theme=tokyonight`} 
-                    alt="GitHub Stats SVG Widget" 
-                  />
-                </div>
-                <div className="github-img-wrapper">
-                  <img 
-                    src={`https://github-readme-streak-stats.herokuapp.com/?user=${githubUser}&theme=tokyonight`} 
-                    alt="GitHub Streak Widget" 
-                  />
-                </div>
-                <div className="github-img-wrapper">
-                  <img 
-                    src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${githubUser}&layout=compact&theme=tokyonight`} 
-                    alt="Top Languages Widget" 
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
       </main>
 
       {/* Footer copyright */}

@@ -78,7 +78,7 @@ export const resumeData = {
       tech: ["MongoDB", "Express.js", "React.js", "Node.js", "CSS Grid/Flexbox", "REST API"],
       links: {
         github: "https://github.com/Gayatriraulji/jay-ambe-nasta-house",
-        live: "https://jay-ambe-nasta-house.onrender.com"
+        live: "https://jay-ambe-nasta-house-frontend.onrender.com"
       },
       featured: true
     }
