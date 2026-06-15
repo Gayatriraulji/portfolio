@@ -145,7 +145,6 @@ export default function App() {
       {/* Header Panel */}
       <header className="header">
         <a href="#home" className="logo">
-          <span>&lt;Gayatri /&gt;</span>
         </a>
 
         {/* Desktop Links */}

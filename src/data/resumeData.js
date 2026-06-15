@@ -10,11 +10,11 @@ export const resumeData = {
     ],
     tagline: "Building Modern, Scalable & User-Friendly Web Applications",
     about: {
-      bio: "Passionate Full Stack Developer focused on building modern, responsive, and high-performance web applications. I enjoy transforming ideas into real-world digital solutions through clean, maintainable, and efficient code. Experienced in developing full-stack applications using React.js, Node.js, Express.js, and MongoDB. Focused on creating scalable web solutions that deliver exceptional user experiences.",
+      bio: "Passionate Full Stack Developer focused on building modern, responsive, and high-performance web applications. I enjoy transforming ideas into real-world digital solutions through clean, maintainable, and efficient code. Experienced in developing full-stack applications using React.js, Node.js, and MongoDB. Focused on creating scalable web solutions that deliver exceptional user experiences.",
       highlights: [
         "Passionate Full Stack Developer",
         "Clean, maintainable, and efficient code",
-        "Full Stack specialist (React, Node, Express, MongoDB)",
+        "Full Stack specialist (React, Node, MongoDB)",
         "Focus on responsive design and user experience"
       ]
     },
@@ -65,7 +65,7 @@ export const resumeData = {
       title: "Jay Ambe Nasta House",
       role: "Lead Full Stack Developer",
       tagline: "Modern Restaurant Management & Ordering Platform",
-      description: "A modern restaurant management and food ordering platform built using React.js, Node.js, Express.js, and MongoDB. Features an elegant ordering system for customers and a full-featured admin dashboard for owners.",
+      description: "A modern restaurant management and food ordering platform built using React.js, Node.js, and MongoDB. Features an elegant ordering system for customers and a full-featured admin dashboard for owners.",
       features: [
         "Online Ordering System with interactive cart",
         "Admin Dashboard for real-time tracking of sales and items",
@@ -73,7 +73,7 @@ export const resumeData = {
         "Mobile Responsive Design optimized for all device sizes",
         "Real-Time Order Management and status updates"
       ],
-      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "CSS Grid/Flexbox", "REST API"],
+      tech: ["MongoDB", "React.js", "Node.js", "CSS Grid/Flexbox", "REST API"],
       links: {
         github: "https://github.com/Gayatriraulji/jay-ambe-nasta-house",
         live: "https://jay-ambe-nasta-house-frontend.onrender.com"
