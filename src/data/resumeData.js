@@ -37,12 +37,10 @@ export const resumeData = {
     ],
     backend: [
       { name: "Node.js", level: "Intermediate" },
-      { name: "Express.js", level: "Intermediate" },
       { name: "REST APIs", level: "Advanced" }
     ],
     database: [
       { name: "MongoDB", level: "Intermediate" },
-      { name: "Mongoose", level: "Intermediate" },
       { name: "Database Design", level: "Intermediate" },
       { name: "CRUD Operations", level: "Advanced" }
     ],
