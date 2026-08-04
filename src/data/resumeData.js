@@ -21,7 +21,7 @@ export const resumeData = {
     avatar: "/gayu.jpeg",
     socials: {
       github: "https://github.com/Gayatriraulji",
-      linkedin: "https://www.linkedin.com/in/gayatri-raulji-62785b338/",
+      linkedin: "https://www.linkedin.com/in/gayatriraulji",
       instagram: "https://www.instagram.com/gayatri_raulji",
       email: "gayatriraulji1202@gmail.com"
     }
@@ -76,7 +76,7 @@ export const resumeData = {
       tech: ["MongoDB", "React.js", "Node.js", "CSS Grid/Flexbox", "REST API"],
       links: {
         github: "https://github.com/Gayatriraulji/jay-ambe-nasta-house",
-        live: "https://jay-ambe-nasta-house-frontend.onrender.com"
+        live: "https://www.jayambenastahouse.store"
       },
       featured: true
     }
@@ -105,6 +105,12 @@ export const resumeData = {
       company: "Self-Employed",
       period: "2023 - Present",
       description: "Designed and built full-stack applications from scratch. Created restaurant ordering portals, social networks, and database dashboards. Collaborated on requirements, UI design, database structures, API deployments, and front-end state integration."
+    },
+    {
+      role: "Static Website Developer (Internship)",
+      company: "KERYAR — We Work For You",
+      period: "Nov 6, 2025 – Dec 10, 2025",
+      description: "Completed a professional internship in the field of Static Website Development at KERYAR. Worked on practical tasks and live project activities involving tools and technologies relevant to the field. Demonstrated strong willingness to learn, completed assigned responsibilities on time, and maintained a positive and professional attitude throughout the internship. Contributed ideas and showed great initiative and adaptability."
     }
   ]
 };

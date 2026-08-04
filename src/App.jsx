@@ -48,7 +48,7 @@ export default function App() {
   const { personalInfo, techStack, currentlyLearning, projects, coreSkills, education, experience } = resumeData;
   
   // Theme state
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
   
   // Subtitles typewriter state
   const [currentText, setCurrentText] = useState('');
@@ -89,14 +89,21 @@ export default function App() {
     return () => clearTimeout(timer);
   }, [currentText, isDeleting, subtitleIndex, personalInfo.subtitles]);
 
+  // Apply light theme on mount (default)
+  useEffect(() => {
+    document.body.classList.remove('dark-theme');
+  }, []);
+
   // Toggle Theme class
   const handleThemeChange = () => {
     const nextTheme = theme === 'dark' ? 'light' : 'dark';
     setTheme(nextTheme);
-    if (nextTheme === 'light') {
-      document.body.classList.add('light-theme');
-    } else {
+    if (nextTheme === 'dark') {
+      document.body.classList.add('dark-theme');
       document.body.classList.remove('light-theme');
+    } else {
+      document.body.classList.remove('dark-theme');
+      document.body.classList.add('light-theme');
     }
   };
 
@@ -110,7 +117,7 @@ export default function App() {
   // Scrollspy to set active navbar link
   useEffect(() => {
     const onScroll = () => {
-      const targetSections = ['home', 'about', 'skills', 'projects', 'experience', 'learning'];
+      const targetSections = ['home', 'about', 'skills', 'projects', 'experience'];
       const scrollYOffset = window.scrollY + 120;
 
       for (const section of targetSections) {
@@ -146,7 +153,7 @@ export default function App() {
 
         {/* Desktop Links */}
         <nav className="nav-links">
-          {['home', 'about', 'skills', 'projects', 'experience', 'learning'].map((sect) => (
+          {['home', 'about', 'skills', 'projects', 'experience'].map((sect) => (
             <a 
               key={sect} 
               href={`#${sect}`} 
@@ -513,24 +520,6 @@ export default function App() {
                   </div>
                   <p className="timeline-desc">{edu.description}</p>
                 </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* CURRENTLY LEARNING */}
-        <section id="learning" className="section">
-          <div className="section-header">
-            <span className="section-tag">Research</span>
-            <h2 className="section-title">Currently Learning</h2>
-          </div>
-
-          <div className="learning-grid">
-            {currentlyLearning.map((item, idx) => (
-              <div key={idx} className="learning-card glass-card">
-                <span className="learning-num">0{idx + 1}.</span>
-                <h3 className="learning-title">{item.title}</h3>
-                <p className="learning-desc">{item.description}</p>
               </div>
             ))}
           </div>
