@@ -30,14 +30,14 @@ export const resumeData = {
     frontend: [
       { name: "HTML5", level: "Advanced" },
       { name: "CSS3", level: "Advanced" },
-      { name: "JavaScript (ES6+)", level: "Advanced" },
-      { name: "React.js", level: "Advanced" },
-      { name: "Bootstrap", level: "Intermediate" },
+      { name: "JavaScript (ES6+)", level: "Intermediate" },
+      { name: "React.js", level: "Intermediate" },
+      { name: "Bootstrap", level: "Advanced" },
       { name: "Responsive Web Design", level: "Advanced" }
     ],
     backend: [
       { name: "Node.js", level: "Intermediate" },
-      { name: "REST APIs", level: "Advanced" }
+      { name: "REST APIs", level: "Intermediate" }
     ],
     database: [
       { name: "MongoDB", level: "Intermediate" },
@@ -45,12 +45,12 @@ export const resumeData = {
       { name: "CRUD Operations", level: "Advanced" }
     ],
     tools: [
-      { name: "Git", level: "Intermediate" },
+      { name: "Git", level: "Advanced" },
       { name: "GitHub", level: "Advanced" },
       { name: "VS Code", level: "Advanced" },
-      { name: "Postman", level: "Advanced" },
+      { name: "Postman", level: "Intermediate" },
       { name: "npm", level: "Advanced" },
-      { name: "Render", level: "Intermediate" }
+      { name: "Render", level: "Advanced" }
     ]
   },
   currentlyLearning: [
