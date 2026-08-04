@@ -95,7 +95,7 @@ export const resumeData = {
     {
       degree: "Bachelor of Computer Applications (BCA)",
       school: "Gujarat University",
-      period: "2021 - 2024",
+      period: "2023 - Current",
       description: "Focused on computer science fundamentals, database management systems, web development, and software engineering methodologies."
     }
   ],
@@ -103,7 +103,7 @@ export const resumeData = {
     {
       role: "Full Stack Web Developer (Freelance / Projects)",
       company: "Self-Employed",
-      period: "2023 - Present",
+      period: "Jun 2026 – Jul 2026",
       description: "Designed and built full-stack applications from scratch. Created restaurant ordering portals, social networks, and database dashboards. Collaborated on requirements, UI design, database structures, API deployments, and front-end state integration."
     },
     {
