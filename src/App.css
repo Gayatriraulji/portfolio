@@ -1172,6 +1172,7 @@
   .footer-logo,
   .footer-copy,
   .hero-actions,
+  .hero-hello,
   .avatar-glow,
   .timeline-dot,
   .timeline-line,
@@ -1180,6 +1181,7 @@
   .skills-summary-box,
   .tech-icon-container,
   .spotlight-badge,
+  .project-links,
   .github-stats-card {
     display: none !important;
   }
@@ -1469,21 +1471,6 @@
 
   .project-top-row {
     margin-bottom: 8px !important;
-  }
-
-  .project-links {
-    display: flex !important;
-    gap: 12px !important;
-  }
-
-  .project-link-btn {
-    font-size: 8pt !important;
-    color: #0891b2 !important;
-    text-decoration: underline !important;
-  }
-
-  .project-link-btn svg {
-    display: none !important;
   }
 
   .project-title {
