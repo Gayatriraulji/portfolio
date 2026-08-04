@@ -103,7 +103,7 @@ export const resumeData = {
     {
       role: "Full Stack Web Developer (Freelance / Projects)",
       company: "Self-Employed",
-      period: "July 2026",
+      period: "",
       description: "Designed and built full-stack applications from scratch. Created restaurant ordering portals, social networks, and database dashboards. Collaborated on requirements, UI design, database structures, API deployments, and front-end state integration."
     },
     {

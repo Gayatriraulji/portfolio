@@ -497,7 +497,7 @@ export default function App() {
                       <h3 className="timeline-role">{exp.role}</h3>
                       <div className="timeline-company">{exp.company}</div>
                     </div>
-                    <span className="timeline-period">{exp.period}</span>
+                    {exp.period && <span className="timeline-period">{exp.period}</span>}
                   </div>
                   <p className="timeline-desc">{exp.description}</p>
                 </div>
