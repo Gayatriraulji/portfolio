@@ -550,9 +550,6 @@ export default function App() {
                 <Mail size={18} />
               </a>
           </div>
-          <div className="footer-copy">
-            &copy; {new Date().getFullYear()} Gayatri Raulji. All rights reserved. Designed with ❤️.
-          </div>
         </div>
       </footer>
     </div>
